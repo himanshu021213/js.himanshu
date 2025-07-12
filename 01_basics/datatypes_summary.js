@@ -62,3 +62,9 @@ let userone ={
 let usertwo = userone
 
 usertwo.email = "himanshu@gmail.com"       // . (dot) is used to access the value of  a variable like here it is used to access the email value , and changed it.
+
+console.log(userone.email);
+console.log(usertwo.email);
+
+
+// the output is not changed bcz the heap dosnt change the value <like the stack did.
