@@ -60,3 +60,5 @@ let userone ={
 }
 
 let usertwo = userone
+
+usertwo.email = "himanshu@gmail.com"       // . (dot) is used to access the value of  a variable like here it is used to access the email value , and changed it.
