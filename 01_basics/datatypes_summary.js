@@ -38,3 +38,25 @@ console.log("Hello World");
 console.log(typeof bigNumbers);
 console.log(typeof myfunction);
 console.log(typeof anotherId);
+
+
+
+//++++++++
+
+//Stack(primitive)  , Heap(non-premitive)
+
+let myyoutubename ="himanshudotcom"
+
+let anothername = myyoutubename
+anothername ="chaiaurcode"
+
+console.log(myyoutubename);
+console.log(anothername);
+
+
+let userone ={
+    email: "usergoogole.com",
+    upi: "user@ybl"
+}
+
+let usertwo = userone
